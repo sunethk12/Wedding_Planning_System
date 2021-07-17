@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Services</title>
+
+    <!-- meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!--  CSS-->
+    <link href="css/category.css" rel="stylesheet" media="all">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <h2>Change Input file to icon</h2>
+        <hr>
+        <label for="firstimg"> <i class="fa fa-plus" style="font-size: 24px;border: 1px solid black;padding: 25px;
+                cursor: pointer;"></i></label>
+        <input type="file" name="" id="firstimg" style="display: none;visibility: none;"
+            onchange="getImage(this.value);">
+
+        <div id="display-image">
+
+        </div>
+
+        <label for="firstimg"> <i class="fa fa-plus" style="font-size: 24px;border: 1px solid black;padding: 25px;
+            cursor: pointer;"></i></label>
+        <input type="file" name="" id="firstimg" style="display: none;visibility: none;"
+            onchange="getImage(this.value);">
+
+        <div id="display-image">
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+
+        function getImage(imagename) {
+            var newimg = imagename.replace(/^.*\\/, "");
+            $('#display-image').html(newimg);
+        }
+
+    </script>
+
+</body>
+
+</html>

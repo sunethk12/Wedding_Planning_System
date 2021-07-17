@@ -1,0 +1,62 @@
+
+
+
+.header{
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(148, 46, 46);
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+
+.search-field{
+
+    
+    padding: 10px;
+    border:none;
+    border-radius: 25px;
+    outline: none;
+
+}
+
+
+.business{
+    width: 300px;
+    height: 28px;
+}
+
+.location{
+    height: 50px;
+    width: 300px;
+}
+
+.search-btn{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+
+.search-btn:hover{
+    background: #ffc107;
+    cursor: pointer;
+}
+
+.form-box{
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+
+}

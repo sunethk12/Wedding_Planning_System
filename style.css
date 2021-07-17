@@ -1,0 +1,42 @@
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgb(0,0,0,0.75);
+}
+
+
+.simg{
+    width: 170px;
+    height: 130px;
+}
+
+.simg-categories{
+  width: 170px;
+  height: 170px;
+}
+
+
+.bst{
+  margin-left:550px;
+  background-color:#FB550C;
+  color:white;
+  font-weight:bold;
+}
+
+
+
+
+.carousel {
+    height: 300px;
+  }
+  
+  .carousel-item,
+  .carousel-inner,
+  .carousel-inner img {
+    height: 100%;
+    width: auto;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
